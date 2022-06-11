@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    /* Background */
+    --color-base: 255, 253, 252;
+    --color-muted: 242, 242, 242;
+    --color-dull: 210, 210, 210;
+    --color-green-hue: 243, 249, 249;
+    /* Text */
+    --color-text-base: 0, 0, 0;
+    --color-text-muted: 55, 65, 81;
+    --color-text-inverted: 242, 242, 242;
+    /* Buttons */
+    --color-button-accent: 56, 168, 146;
+    --color-button-hover: 0, 102, 0;
+    --color-button-muted: 222, 252, 247;
+    /* svg */
+    --color-svg-accent: 75, 85, 99;
+    --color-svg-accent-muted: 193, 197, 201;
+    --color-svg-hover: 8, 145, 178;
+    --color-svg-hover-muted: 103, 232, 249;
+    /* border */
+    --color-border-base: 233, 237, 239;
+    --color-border-muted: 222, 224, 224;
+    /* Highlight */
+    --color-highlight-base: 0, 102, 0;
+
+    /* gradient */
+    --color-gradient-base1: 255, 240, 211;
+    --color-gradient-base2: 255, 229, 179;
+    --color-gradient-completed1: 237, 255, 252;
+    --color-gradient-completed2: 176, 255, 242;
+    --color-gradient-wrong1: 252, 177, 191;
+    --color-gradient-wrong2: 255, 117, 143;
+  }
+  .theme-dark {
+    /* Background */
+    --color-base: 31, 31, 33;
+    --color-muted: 34, 34, 36;
+    --color-dull: 50, 50, 50;
+    --color-green-hue: 0, 0, 0;
+    /* Text */
+    --color-text-base: 255, 255, 255;
+    --color-text-muted: 200, 200, 200;
+    --color-text-inverted: 255, 255, 255;
+    /* Buttons */
+    --color-button-accent: 0, 102, 0;
+    --color-button-hover: 56, 168, 146;
+    --color-button-muted: 0, 102, 0;
+    /* svg */
+    --color-svg-accent: 34, 211, 238;
+    --color-svg-accent-muted: 209, 213, 219;
+    --color-svg-hover: 103, 232, 249;
+    --color-svg-hover-muted: 6, 182, 212;
+    /* border */
+    --color-border-base: 77, 77, 77;
+    --color-border-muted: 99, 99, 99;
+    /* Highlight */
+    --color-highlight-base: 0, 80, 0;
+  }
+  .theme-orange {
+    /* Buttons */
+    --color-button-accent: 255, 175, 24;
+    --color-button-hover: 255, 153, 0;
+    --color-button-muted: 254, 117, 75;
+    /* Text */
+    --color-text-base: 0, 0, 0;
+  }
+  .theme-red {
+    /* Buttons */
+    --color-button-accent: 253, 59, 96;
+    --color-button-hover: 227, 54, 74;
+    --color-button-muted: 0, 102, 0;
+    /* Text */
+    --color-text-base: 255, 255, 255;
+  }
+  .theme-green {
+    /* Buttons */
+    --color-button-accent: 56, 168, 146;
+    --color-button-hover: 45, 135, 117;
+    --color-button-muted: 0, 102, 0;
+    /* Text */
+    --color-text-base: 255, 255, 255;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: vh;
+  background: #141414;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #777676;
+  border-radius: 100vh;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+}
