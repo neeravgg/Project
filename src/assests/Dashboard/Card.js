@@ -32,7 +32,7 @@ const Card = (props) => {
       } gap-5  `}
     >
       {/* Grades */}
-      <div className=' flex-1 '>
+      <div className=' flex-1 '>ds
         <div
           className={`flex flex-col transform hover:scale-105 h-80 cursor-pointer transition duration-200 ease-in-out px-4  py-4 shadow-md border-2 border-skin-muted  rounded-3xl bg-skin-base  dark:bg-gradient-to-bl ${Color[0]}  gap-4 dark:theme-dark`}
         >
